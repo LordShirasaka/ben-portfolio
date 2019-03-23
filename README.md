@@ -34,15 +34,45 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
+1) Semantic HTML is the tactic used by current web developers that accomplishes coding in a way that
+has meaning. The way to do this is to understand the relationship between HTML and CSS. the HTML is 
+the way to put "what" is going to be on the page. The CSS is more about the "where and how". Sketching 
+out a diagram of the site you want to build is a great way to make sure there
+is no clutter in your code.
+
+
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
+
+
+-Two main differences between ```display: block; and display: inline;``` are as follows:
+1) Block = Can have margins and/or padding while ignoring vertical-align.
+2) Not necessary to set width property if you want it to fill its parent horizontally.
+
+1) Inline = Flows along with text content, thus will not clear previous content to drop to the next line like block elements
+2) Is subject to the vertical-align property and white-space settings in CSS
 
 3. What are the 4 areas of the box model?
 
+1) Content - The content of the box, where text and images appear
+2)Padding - Clears an area around the content. The padding is transparent
+3)Border - A border that goes around the padding and content
+4)Margin - Clears an area outside the border. The margin is transparent
+
+
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
+
+4)Vertical axis (Y-axis)
+
 
 5. Explain why git is valuable to a team of developers.
 
-You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
+5)-Feature Branch Workflow
+-Agile software development
+-Distributed Development
+-Pull Requests
+-Faster release cycle
+-Great community as well
+-Cost effective
 
 ## Project Set Up
 

@@ -72,12 +72,9 @@ p {
  
 }
 
-
-.header .logo {
-  
+.header nav img{
   display: flex-inline;
   justify-content:space-around;
- 
   
 }
 .header nav a {
