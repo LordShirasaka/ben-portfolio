@@ -1,0 +1,32 @@
+{
+  "name": "demo-node-app",
+  "version": "1.0.0",
+  "description": "The code for the following [SitePoint article](https://www.sitepoint.com/build-simple-beginner-app-node-bootstrap-mongodb/).",
+  "main": "index.js",
+  "scripts": {
+    "watch": "nodemon ./start.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "dotenv": "^4.0.0",
+    "express": "^4.16.4",
+    "express-validator": "^4.3.0",
+    "http-auth": "^3.2.3",
+    "mongoose": "^4.13.9",
+    "pug": "^2.0.0-rc.4"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.11"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joshua-v-dev/demo-node-app.git"
+  },
+  "bugs": {
+    "url": "https://github.com/joshua-v-dev/demo-node-app/issues"
+  },
+  "homepage": "https://github.com/joshua-v-dev/demo-node-app#readme"
+}
